@@ -1,0 +1,13 @@
+{
+  "name": "subscribe",
+  "version": "1.0.0",
+  "description": "EdTech newsletter backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "mongoose": "^9.4.1",
+    "nodemailer": "^8.0.5"
+  }
+}
