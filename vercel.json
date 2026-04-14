@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/subscribe",
+      "destination": "/api/subscribe.js"
+    },
+
+       {
+      "source": "/api/admin-login",
+      "destination": "/api/admin-login.js"
+    },
+   
+    {
+      "source": "/api/send-newsletter",
+      "destination": "/api/send-newsletter.js"
+    }
+  ]
+}
+
